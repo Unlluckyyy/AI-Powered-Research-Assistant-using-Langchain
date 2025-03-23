@@ -15,6 +15,7 @@ load_dotenv()
 
 st.title('AI-Powered Research Paper Assistant')
 
+st.info(st.secrets)
 if "OPENAI_API_KEY" in st.secrets:
     st.write("API Key loaded successfully")
     api_key = st.secrets["OPENAI_API_KEY"]
@@ -22,9 +23,8 @@ else:
     st.write("API Key not found!")
     api_key = os.getenv("OPENAI_API_KEY")
 
-st.info(api_key)
 if not api_key:
-    raise ValueError("Missing OPENAI_API_KEY! Make sure it's set in the .env file.")
+    raise ValueError("Missing OPENAI_API_KEY! Please set it in the secrets.toml file or as an environment variable.")
 
 model = ChatOpenAI(api_key=api_key)
 embeddings = OpenAIEmbeddings(api_key=api_key)
