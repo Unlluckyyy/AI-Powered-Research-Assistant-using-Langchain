@@ -15,6 +15,7 @@ load_dotenv()
 
 st.title('AI-Powered Research Paper Assistant')
 
+st.info(st.secrets)
 if "OPENAI_API_KEY" in st.secrets:
     st.write("Secrets found: OPENAI_API_KEY")
     api_key = st.secrets["OPENAI_API_KEY"]
