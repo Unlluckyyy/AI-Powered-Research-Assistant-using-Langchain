@@ -16,10 +16,8 @@ load_dotenv()
 st.title('AI-Powered Research Paper Assistant')
 
 if "OPENAI_API_KEY" in st.secrets['secrets']:
-    st.write("API Key loaded successfully")
     api_key = st.secrets['secrets']["OPENAI_API_KEY"]
 else:
-    st.write("API Key not found!")
     api_key = os.getenv("OPENAI_API_KEY")
 
 if not api_key:
