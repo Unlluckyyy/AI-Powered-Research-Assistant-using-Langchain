@@ -12,7 +12,10 @@ warnings.filterwarnings('ignore')
 import streamlit as st
 
 load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
+if "OPENAI_API_KEY" in st.secrets:
+    api_key = st.secrets["OPENAI_API_KEY"] 
+else:
+    api_key = os.getenv("OPENAI_API_KEY")
 
 if not api_key:
     raise ValueError("Missing OPENAI_API_KEY! Make sure it's set in the .env file.")
