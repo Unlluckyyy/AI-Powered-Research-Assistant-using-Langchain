@@ -24,15 +24,15 @@ To run this project locally, follow these steps:
    git clone https://github.com/your-username/ai-powered-research-assistant.git
    cd ai-powered-research-assistant
 2. Install the required dependencies:
-  ```bash
+   ```bash
    pip install -r requirements.txt
 3. Run the application:
-  ```bash
+   ```bash
    streamlit run app.py
 
 Visit http://localhost:8501 in your browser to access the app.
 
-How It Works
+## How It Works
 
 <ul>
     <li>Upload a research paper: Users upload a PDF of the research paper they want to work with.</li>
