@@ -22,6 +22,7 @@ else:
     st.write("API Key not found!")
     api_key = os.getenv("OPENAI_API_KEY")
 
+st.info(api_key)
 if not api_key:
     raise ValueError("Missing OPENAI_API_KEY! Make sure it's set in the .env file.")
 
