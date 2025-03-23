@@ -4,5 +4,5 @@ python-dotenv
 langchain-community
 openi
 faiss-cpu
-PyMyPDF
+PyMuPDF
 tiktoken
