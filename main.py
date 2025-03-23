@@ -13,20 +13,23 @@ import streamlit as st
 
 load_dotenv()
 
-if "OPENAI_API_KEY" in st.secrets:
-    api_key = st.secrets["OPENAI_API_KEY"] 
-else:
-    api_key = os.getenv("OPENAI_API_KEY")
-
-if not api_key:
-    raise ValueError("Missing OPENAI_API_KEY! Make sure it's set in the .env file.")
-
 model = ChatOpenAI(api_key=api_key)
 embeddings = OpenAIEmbeddings(api_key=api_key)
 parser = StrOutputParser()
 
 st.title('AI-Powered Research Paper Assistant')
 
+if "OPENAI_API_KEY" in st.secrets:
+    st.write("Secrets found: OPENAI_API_KEY")
+    api_key = st.secrets["OPENAI_API_KEY"]
+else:
+    st.write("Secrets not found. Falling back to .env or environment variables.")
+    api_key = os.getenv("OPENAI_API_KEY")
+
+if not api_key:
+    st.error("Missing OPENAI_API_KEY! Make sure it's set in the secrets or .env file.")
+    raise ValueError("Missing OPENAI_API_KEY!")
+    
 uploaded_file = st.file_uploader("Upload a research paper in PDF format:", type="pdf")
 
 if uploaded_file is not None:
