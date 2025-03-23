@@ -15,13 +15,7 @@ load_dotenv()
 
 st.title('AI-Powered Research Paper Assistant')
 
-st.info(st.secrets)
-if "OPENAI_API_KEY" in st.secrets:
-    st.write("Secrets found: OPENAI_API_KEY")
-    api_key = st.secrets["OPENAI_API_KEY"]
-else:
-    st.write("Secrets not found. Falling back to .env or environment variables.")
-    api_key = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets['OPENAI_API_KEY']
 
 if not api_key:
     st.error("Missing OPENAI_API_KEY! Make sure it's set in the secrets or .env file.")
