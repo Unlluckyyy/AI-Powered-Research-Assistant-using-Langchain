@@ -2,7 +2,7 @@ langchain
 streamlit
 python-dotenv
 langchain-community
-openi
+openai
 faiss-cpu
 PyMuPDF
 tiktoken
