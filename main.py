@@ -12,6 +12,7 @@ warnings.filterwarnings('ignore')
 import streamlit as st
 
 load_dotenv()
+
 if "OPENAI_API_KEY" in st.secrets:
     api_key = st.secrets["OPENAI_API_KEY"] 
 else:
